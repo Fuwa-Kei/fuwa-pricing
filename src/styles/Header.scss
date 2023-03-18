@@ -1,0 +1,46 @@
+@import 'variables';
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBlock {
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: white;
+
+    h1 {
+        color: $headerColor;
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+.cta {
+    display: flex;
+    width: 236px;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .btn {
+        border: 1px solid $ascentColor;
+        padding: 10px 20px;
+        width: 113px;
+        text-align: center;
+    }
+    
+    .month {
+        background: white;    
+    }
+}
+

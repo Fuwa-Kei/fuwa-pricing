@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&family=Roboto:wght@400;700&display=swap");
+.App {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  background: url(PngItem_216962.png) no-repeat fixed, linear-gradient(#F5EBE0, white);
+}/*# sourceMappingURL=app.css.map */

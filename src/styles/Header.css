@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&family=Roboto:wght@400;700&display=swap");
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBlock {
+  margin-top: 84px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: white;
+}
+.headerBlock h1 {
+  color: #C0B5AB;
+  font-size: 36px;
+}
+.headerBlock p {
+  font-size: 14px;
+}
+
+.cta {
+  display: flex;
+  width: 236px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cta .btn {
+  border: 1px solid #AEB7D0;
+  padding: 10px 20px;
+  width: 113px;
+  text-align: center;
+}
+.cta .month {
+  background: white;
+}/*# sourceMappingURL=Header.css.map */
