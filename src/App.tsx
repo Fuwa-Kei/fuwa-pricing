@@ -1,14 +1,21 @@
-import React from 'react';
+import { FC, useState } from 'react';
 import Header from './components/Header';
 import Pricing from './components/Pricing';
 import './styles/app.css';
 
-function App() {
+const App: FC = () => {
+
+  const [isMonthly, setIsMonthly] = useState(true);
+
+  const handlePriceChange = () => {
+    setIsMonthly(!isMonthly);
+  };
+
   return (
     <div className="App">
       <div className="pageContainer">
-        <Header />
-        <Pricing />
+      <Header isMonthly={isMonthly} handlePriceChange={handlePriceChange} />
+        <Pricing isMonthly={isMonthly} />
       </div>
     </div>
   );

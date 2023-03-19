@@ -3,7 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }/*# sourceMappingURL=index.css.map */
-
-html {
-  background-color: linear-gradient($bgColor , white);
-}

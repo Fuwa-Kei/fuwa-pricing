@@ -40,12 +40,13 @@
   padding: 10px 20px;
   width: 113px;
   text-align: center;
+  cursor: pointer;
 }
-.cta-container .month {
+.cta-container .active {
   background: white;
 }
 .cta-container p {
   font-size: 12px;
-  background: #F5EBE0;
+  background: #FBE4CC;
   margin-top: 2px;
 }/*# sourceMappingURL=Header.css.map */

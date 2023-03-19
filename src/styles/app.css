@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  background: url(PngItem_216962.png) 40% -10% no-repeat, linear-gradient(#F5EBE0, white);
+  background: url(PngItem_216962.png) 40% -10% no-repeat, linear-gradient(#FBE4CC, white);
 }
 .App .pageContainer {
-  max-width: 1040px;
+  max-width: 1200px;
 }/*# sourceMappingURL=app.css.map */
