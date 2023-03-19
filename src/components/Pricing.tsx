@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import img1 from '../styles/image1.png';
-import img2 from '../styles/image2.png';
-import img3 from '../styles/image3.png';
+import img1 from '../styles/images/image1.png';
+import img2 from '../styles/images/image2.png';
+import img3 from '../styles/images/image3.png';
 import { PriceCard } from './parts/PriceCard';
 import '../styles/pricing.css';
 
