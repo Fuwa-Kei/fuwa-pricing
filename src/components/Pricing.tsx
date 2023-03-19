@@ -12,14 +12,14 @@ interface Props {
 const Pricing: FC<Props> = ({ isMonthly }) => {
   const beginner = ["Basic sponges", "Different types of pastry bases", "Creams", "Custards", "Simple baked cakes", "...and more"];
   const intermediate = ["Whole cakes", "Individual cakes", "Tarts", "Mousses", "Decoration techniques", "...and more "]
-  const pro = ["Chocolate work", "Chocolate work", "Sugar work", "Entremets", "Decorative cakes", ".....and more"]
+  const pro = ["Chocolate work", "Sugar work", "Entremets", "Decorative cakes", ".....and more"]
 
   return (
     <div className="priceSection">
       <PriceCard 
         img = {img1}
         title = "Beginner"
-        desc = "Perfect for if you are just starting out in your pastry journey, understand different pastrys and methods"
+        desc = "Perfect for if you are just starting out in your pastry journey, understand different pastries and methods"
         price = {isMonthly ? 8 : 48} 
         details = {beginner}
       />
@@ -34,7 +34,7 @@ const Pricing: FC<Props> = ({ isMonthly }) => {
       <PriceCard 
         img = {img3}
         title = "Professional"
-        desc = "If you are serious and and want to learn all the skills and techniques professional use for some showstopping creations"
+        desc = "If you are serious and want to learn all the skills and techniques that professionals use for some showstopping creations"
         price = {isMonthly ? 14 : 84}
         details = {pro}
       />
