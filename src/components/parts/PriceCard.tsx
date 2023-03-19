@@ -1,5 +1,5 @@
 import {FC} from 'react'
-import img1 from '../../styles/image1.png';
+
 import '../../styles/priceCard.css'
 
 interface Props {
@@ -8,9 +8,10 @@ interface Props {
     desc: string;
     price: number;
     details: string[];
+    time: string
 }
 
-export const PriceCard: FC<Props> = ({img, title, desc, price, details}) => {
+export const PriceCard: FC<Props> = ({img, title, desc, price, details, time}) => {
   return (
     <div className="priceCard">
         <img src={img}></img>
@@ -19,7 +20,7 @@ export const PriceCard: FC<Props> = ({img, title, desc, price, details}) => {
             <p className="description">{desc}</p>
             <div className="price">£{price}</div>
             <div className="btn try">Try for free</div>
-            <div className="smallPrint">Try for 7 days free then for £{price}/month</div>
+            <div className="smallPrint">Try for 7 days free then for £{price}/{time}</div>
         </div>    
     
         <div className="details">

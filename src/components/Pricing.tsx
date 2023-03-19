@@ -22,6 +22,7 @@ const Pricing: FC<Props> = ({ isMonthly }) => {
         desc = "Perfect for if you are just starting out in your pastry journey, understand different pastries and methods"
         price = {isMonthly ? 8 : 48} 
         details = {beginner}
+        time = {isMonthly ? "month" : "year"}
       />
 
       <PriceCard 
@@ -30,6 +31,7 @@ const Pricing: FC<Props> = ({ isMonthly }) => {
         desc = "If you already know the basics and want to start creating your own cakes to impress, this is for you "
         price = {isMonthly ? 11 : 66}
         details = {intermediate}
+        time = {isMonthly ? "month" : "year"}
       />
       <PriceCard 
         img = {img3}
@@ -37,6 +39,7 @@ const Pricing: FC<Props> = ({ isMonthly }) => {
         desc = "If you are serious and want to learn all the skills and techniques that professionals use for some showstopping creations"
         price = {isMonthly ? 14 : 84}
         details = {pro}
+        time = {isMonthly ? "month" : "year"}
       />
     </div>
   )
