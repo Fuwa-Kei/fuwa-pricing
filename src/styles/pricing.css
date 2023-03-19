@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&family=Roboto:wght@400;700&display=swap");
+.priceSection {
+  margin-bottom: 200px;
+}
+
+.priceCard {
+  width: 334px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 28px;
+  box-shadow: 7px 7px 10px -4px #979797;
+}
+.priceCard .course {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.priceCard .course h2 {
+  text-align: center;
+  font-family: "Nova Round", cursive;
+  color: #AEB7D0;
+  padding: 10px;
+}
+.priceCard .course .price {
+  font-size: 48px;
+  font-family: "Nova Round", cursive;
+  text-align: center;
+  padding: 20px 10px;
+}
+.priceCard .course .try {
+  border: 1px solid #AEB7D0;
+  background: #F5EBE0;
+  padding: 10px;
+}
+.priceCard .course .smallPrint {
+  font-size: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.priceCard .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 24px;
+  gap: 24px;
+  border-top: 1px solid #AEB7D0;
+}
+.priceCard .details ul {
+  padding-left: 40px;
+}/*# sourceMappingURL=pricing.css.map */

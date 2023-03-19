@@ -23,18 +23,29 @@
   font-size: 14px;
 }
 
-.cta {
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta-container .cta {
   display: flex;
   width: 236px;
   justify-content: space-between;
   margin-top: 20px;
 }
-.cta .btn {
+.cta-container .btn {
   border: 1px solid #AEB7D0;
   padding: 10px 20px;
   width: 113px;
   text-align: center;
 }
-.cta .month {
+.cta-container .month {
   background: white;
+}
+.cta-container p {
+  font-size: 12px;
+  background: #F5EBE0;
+  margin-top: 2px;
 }/*# sourceMappingURL=Header.css.map */

@@ -1,11 +1,15 @@
 import React from 'react';
-import Header from './components/Header'
-import './styles/app.css'
+import Header from './components/Header';
+import Pricing from './components/Pricing';
+import './styles/app.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div className="pageContainer">
+        <Header />
+        <Pricing />
+      </div>
     </div>
   );
 }

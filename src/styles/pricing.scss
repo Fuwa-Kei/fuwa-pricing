@@ -1,0 +1,63 @@
+@import 'variables';
+
+.priceSection {
+    margin-bottom: 200px;
+}
+
+.priceCard {
+    width: 334px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 28px; 
+    -webkit-box-shadow: 7px 7px 10px -4px #979797; 
+    box-shadow: 7px 7px 10px -4px #979797;
+
+    .course {
+        padding: 0 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            text-align: center;
+            font-family: $altFont;
+            color: $ascentColor;
+            padding: 10px;
+        }
+
+        .price {
+            font-size: 48px;
+            font-family: $altFont;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        .try {
+            border: 1px solid $ascentColor;
+            background: $bgColor;
+            padding: 10px;
+        }
+
+        .smallPrint {
+            font-size: 12px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 20px 24px;
+            gap: 24px;
+            border-top: 1px solid $ascentColor;
+             
+            ul {
+                padding-left: 40px;
+            }
+    }
+}
